@@ -1,0 +1,47 @@
+
+:root {
+  /* GBC Brand Colors */
+  --gbc-navy: #0B1628;
+  --gbc-navy-light: #14243B;
+  --gbc-gold: #D4A94F;
+  --gbc-gold-light: #F0D38A;
+
+  /* Surfaces */
+  --gbc-white: #FFFFFF;
+  --gbc-background: #F7F8FA;
+  --gbc-surface: #FFFFFF;
+  --gbc-border: #E2E7EF;
+
+  /* Text */
+  --gbc-text: #172235;
+  --gbc-text-muted: #657187;
+  --gbc-text-light: #F4F6FA;
+
+  /* Status */
+  --gbc-success: #16845B;
+  --gbc-danger: #C43D4D;
+
+  /* Typography */
+  --gbc-font: "Inter", "Segoe UI", Arial, sans-serif;
+
+  /* Layout */
+  --gbc-container: 1200px;
+  --gbc-header-height: 80px;
+
+  /* Spacing */
+  --gbc-space-1: 4px;
+  --gbc-space-2: 8px;
+  --gbc-space-3: 12px;
+  --gbc-space-4: 16px;
+  --gbc-space-5: 24px;
+  --gbc-space-6: 32px;
+  --gbc-space-7: 48px;
+  --gbc-space-8: 64px;
+
+  /* Effects */
+  --gbc-radius-sm: 6px;
+  --gbc-radius-md: 12px;
+  --gbc-radius-lg: 20px;
+  --gbc-shadow: 0 8px 30px rgba(11, 22, 40, 0.08);
+  --gbc-transition: 180ms ease;
+}
