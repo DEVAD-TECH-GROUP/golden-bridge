@@ -681,7 +681,7 @@ p {
 
 
 .node-one   { top: 10%;     left: 30%;  animation-delay: -0.1s; }
-.node-two   { top: 45%;    right: 0;   animation-delay: -1.5s; }
+.node-two   { top: 50%;    right: 10%;   animation-delay: -1.5s; }
 .node-three { bottom: 9%;  left: 12%;  animation-delay: -3s; }
 .node-four  { top: 20%;    right: 6%;  animation-delay: -4.5s; }
 

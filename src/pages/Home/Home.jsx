@@ -84,14 +84,14 @@ export default function Home() {
               <img
                 src={logo}
                 alt="Golden Bridge Concept"
-                className="hero-logo"
+                // className="hero-logo"
               />
               {/* <strong>GBC</strong>
               <span>CONNECTED ECOSYSTEM</span> */}
             </div>
             <span className="orbit-node node-one">Technology</span>
-            <span className="orbit-node node-two">People</span>
-            <span className="orbit-node node-three">Ideas</span>
+            {/* <span className="orbit-node node-two">People</span> */}
+            {/* <span className="orbit-node node-three">Ideas</span> */}
             <span className="orbit-node node-four">Opportunity</span>
             <span className="orbit-node node-five">Education</span>
             <span className="orbit-node node-six">Business</span>
