@@ -7,12 +7,12 @@ import TechnologyDigital from "./TechnologyDigital";
 import HealthNutrition from "./HealthNutrition";
 import AgricultureFood from "./AgricultureFood";
 import EducationSkills from "./EducationSkills";
-import BusinessEnterprise from "./BusinessEnterprise";
-import ResearchDataIntelligence from "./ResearchDataIntelligence";
-import FinanceInvestment from "./FinanceInvestment";
+import Business from "./BusinessEnterprise";
+import ResearchData from "./ResearchDataIntelligence";
+import Finance from "./FinanceInvestment";
 import MediaCommunication from "./MediaCommunication";
 import LogisticsDistribution from "./LogisticsDistribution";
-import CommunityDevelopment from "./CommunityDevelopment";
+import Community from "./CommunityDevelopment";
 import RealEstateInfrastructure from "./RealEstateInfrastructure";
 import InnovationStrategy from "./InnovationStrategy";
 
@@ -21,12 +21,12 @@ const departmentPages = {
   health: HealthNutrition,
   agriculture: AgricultureFood,
   education: EducationSkills,
-  business: BusinessEnterprise,
-  research: ResearchDataIntelligence,
-  finance: FinanceInvestment,
+  business: Business,
+  research: ResearchData,
+  finance: Finance,
   media: MediaCommunication,
   logistics: LogisticsDistribution,
-  community: CommunityDevelopment,
+  community: Community,
   "real-estate": RealEstateInfrastructure,
   innovation: InnovationStrategy,
 };
@@ -49,7 +49,7 @@ function DepartmentPlaceholder({ department }) {
 
           <p>{department.description}</p>
 
-          <h2>Page Under Development</h2>
+          <h2>Page Under </h2>
 
           <p>
             We are preparing this department's dedicated page. Please check back
