@@ -18,20 +18,27 @@ export default function Departments() {
 
           <div className="pillar-grid">
             {departments.map((department) => (
-              <article className="pillar-card" key={department.slug}>
-                <div className="pillar-top">
-                  <span>{department.number}</span>
-                  <ArrowRight size={22} />
-                </div>
-                <h3>{department.name}</h3>
-                <p>{department.description}</p>
-                <Link
-                  className="text-link"
-                  to={`/departments/${department.slug}`}
-                >
-                  Explore department <ArrowRight size={16} />
-                </Link>
-              </article>
+              <Link
+                to={`/departments/${department.slug}`}
+                className="pillar-card-link"
+                key={department.slug}
+                aria-label={`Explore ${department.name}`}
+              >
+                <article className="pillar-card">
+                  <div className="pillar-top">
+                    <span>{department.number}</span>
+                    <ArrowRight size={22} />
+                  </div>
+
+                  <h3>{department.name}</h3>
+
+                  <p>{department.description}</p>
+
+                  <span className="text-link">
+                    Explore department <ArrowRight size={16} />
+                  </span>
+                </article>
+              </Link>
             ))}
           </div>
         </div>

@@ -13,8 +13,8 @@ import Finance from "./FinanceInvestment";
 import MediaCommunication from "./MediaCommunication";
 import LogisticsDistribution from "./LogisticsDistribution";
 import Community from "./CommunityDevelopment";
-import RealEstateInfrastructure from "./RealEstateInfrastructure";
-import InnovationStrategy from "./InnovationStrategy";
+import RealEstate from "./RealEstateInfrastructure";
+import Innovation from "./InnovationStrategy";
 
 const departmentPages = {
   technology: TechnologyDigital,
@@ -27,8 +27,8 @@ const departmentPages = {
   media: MediaCommunication,
   logistics: LogisticsDistribution,
   community: Community,
-  "real-estate": RealEstateInfrastructure,
-  innovation: InnovationStrategy,
+  "real-estate": RealEstate,
+  innovation: Innovation,
 };
 
 function DepartmentPlaceholder({ department }) {
